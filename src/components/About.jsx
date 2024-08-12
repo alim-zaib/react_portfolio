@@ -16,7 +16,6 @@ const About = () => {
             <br />
             <strong>Age:</strong> 21
             <br />
-            <strong>Nationality:</strong> British
           </p>
         </div>
       </div>

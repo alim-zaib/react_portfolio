@@ -8,16 +8,16 @@ import weightlifting from "../assets/hobbies/weightlifting.jpg";
 import gaming from "../assets/hobbies/league.jpg";
 import hiking from "../assets/hobbies/hiking.webp";
 
-export const HERO_CONTENT = `I am a recent Artificial Intelligence graduate from the University of Manchester, with a strong passion for artificial intelligence and machine learning. I am actively seeking roles where I can apply my expertise, particularly in software engineering, data engineering, and data analyst positions. Throughout my time at university, I have honed my skills in various technologies and programming languages, with a strong proficiency in Python, Java, and SQL. My goal is to contribute to innovative projects that leverage AI and ML to solve real-world problems and drive technological advancement.`;
+export const HERO_CONTENT = `I'm a recent Artificial Intelligence graduate from the University of Manchester, passionate about AI and its future impact. I'm eager to start my career in software engineering, data engineering, or data analysis, where I can use my skills in Python, Java, and SQL to contribute to meaningful projects. With a strong foundation in AI and a commitment to continuous learning, I'm excited to join a team where I can grow professionally and help drive technological innovation. I'm particularly interested in roles that allow me to apply my knowledge of AI to solve real-world problems and make a tangible impact.`;
 
-export const ABOUT_TEXT = `I am a recent graduate from the University of Manchester with a strong interest in technology and software development. I'm very eager to start working in the industry to continue learning more industry-focused knowledge while applying what I’ve learned during university.`;
+export const ABOUT_TEXT = `I have a strong interest in technology and software development, and I'm excited to begin working in the industry. My education at the University of Manchester has given me a solid foundation, and I'm ready to apply what I've learned in a real-world setting.`;
 
 export const HOBBIES = [
   {
     title: "Hiking",
     image: hiking,
     description:
-      "I enjoy hiking with friends or family, exploring the Peak District. It’s a wonderful way to test my endurance while disconnecting from technology.",
+      "I enjoy hiking with friends, exploring the Peak District. It’s a great way to challenge my endurance while taking a break from technology.",
   },
   {
     title: "Weightlifting",

@@ -8,7 +8,7 @@ import weightlifting from "../assets/hobbies/weightlifting.jpg";
 import gaming from "../assets/hobbies/league.jpg";
 import hiking from "../assets/hobbies/hiking.webp";
 
-export const HERO_CONTENT = `I'm a recent Artificial Intelligence graduate from the University of Manchester, passionate about AI and its future impact. I'm eager to start my career in software engineering, data engineering, or data analysis, where I can use my skills in Python, Java, and SQL to contribute to meaningful projects. With a strong foundation in AI and a commitment to continuous learning, I'm excited to join a team where I can grow professionally and help drive technological innovation. I'm particularly interested in roles that allow me to apply my knowledge of AI to solve real-world problems and make a tangible impact.`;
+export const HERO_CONTENT = `I'm a recent Artificial Intelligence graduate from the University of Manchester, passionate about AI and its future impact. I'm eager to start my career in software engineering, data engineering, or data analysis, where I can apply my current skills and continue to learn new ones. With a strong foundation in AI and a commitment to continuous learning, I'm excited to join a team where I can grow professionally, contribute to innovative projects, and help drive technological advancement. I'm particularly interested in roles that allow me to leverage my knowledge to solve real-world problems while expanding my expertise.`;
 
 export const ABOUT_TEXT = `I have a strong interest in technology and software development, and I'm excited to begin working in the industry. My education at the University of Manchester has given me a solid foundation, and I'm ready to apply what I've learned in a real-world setting.`;
 

@@ -23,21 +23,25 @@ const About = () => {
       <h3 className="text-center text-2xl mt-12 mb-8">
         Some of my hobbies include:
       </h3>
-      <div className="flex flex-col items-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {HOBBIES.map((hobby, index) => (
           <div
             key={index}
-            className="mb-6 w-full max-w-4xl flex flex-wrap bg-neutral-900 rounded-lg p-4"
+            className="w-full max-w-lg mx-auto flex flex-col sm:flex-row bg-neutral-900 rounded-lg overflow-hidden"
+            style={{ height: "250px" }} // Increase the height of the cards
           >
-            <img
-              src={hobby.image}
-              alt={hobby.title}
-              className="w-full sm:w-1/2 rounded-lg object-cover"
-              style={{ maxHeight: "250px", objectFit: "contain" }}
-            />
-            <div className="w-full sm:w-1/2 flex flex-col justify-center pl-4">
+            <div className="w-full sm:w-1/3">
+              <img
+                src={hobby.image}
+                alt={hobby.title}
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="w-full sm:w-2/3 flex flex-col justify-center p-4">
               <h4 className="text-cyan-400 text-xl mb-2">{hobby.title}</h4>
-              <p className="text-neutral-300">{hobby.description}</p>
+              <p className="text-neutral-300 text-base leading-snug">
+                {hobby.description}
+              </p>
             </div>
           </div>
         ))}

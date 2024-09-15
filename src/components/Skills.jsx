@@ -1,4 +1,4 @@
-import tableau from "../assets/icons/tableau-software.svg"; // Import the Tableau icon
+import tableau from "../assets/icons/tableau-software.svg";
 
 const Skills = () => {
   return (
@@ -6,7 +6,6 @@ const Skills = () => {
       <div className="w-full max-w-6xl">
         <h2 className="my-20 text-center text-4xl">Skills</h2>
 
-        {/* Section for Top 10 Skills */}
         <h3 className="mb-8 text-center text-2xl">
           Technologies I'm Most Familiar With
         </h3>
@@ -15,14 +14,13 @@ const Skills = () => {
           <div className="flex flex-col items-center">
             <div className="rounded-2xl border-4 border-neutral-700 p-4 bg-white">
               {" "}
-              {/* Darker and thicker border */}
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
                 alt="Python"
                 className="w-16 h-16"
               />
             </div>
-            <p className="mt-2 text-sm ">Python</p> {/* Technology name */}
+            <p className="mt-2 text-sm ">Python</p>
           </div>
           <div className="flex flex-col items-center">
             <div className="rounded-2xl border-4 border-neutral-700 p-4 bg-white">

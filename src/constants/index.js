@@ -35,7 +35,7 @@ export const HOBBIES = [
     title: "Gaming",
     image: gaming,
     description:
-      "I love playing computer games of all genres, especially as a way to relax and have fun with friends.",
+      "I enjoy a range of computer games across different genres for the problem-solving and strategic thinking they involve.",
   },
 ];
 
@@ -70,7 +70,7 @@ export const PROJECTS = [
     title: "Spam Detector",
     image: project4,
     description:
-      "A Naive Bayes spam detector that reads, cleans, and classifies text messages.",
+      "A Naive Bayes spam detector that classifies text messages as either spam or ham (non-spam).",
     technologies: ["Python", "Pandas", "Numpy", "Matplotlib"],
     githubLink: "https://github.com/alim-zaib/spam_detector",
   },

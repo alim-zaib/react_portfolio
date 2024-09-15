@@ -2,8 +2,8 @@ import { ABOUT_TEXT, HOBBIES } from "../constants";
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center mt-16">
-      <div className="border-b border-neutral-900 pb-4">
+    <div className="flex flex-col items-center mt-16 border-b border-neutral-900 pb-12">
+      <div className="pb-4">
         <h1 className="text-center text-4xl mb-8">About Me</h1>
       </div>
       <div className="w-full lg:w-1/2">
@@ -28,9 +28,9 @@ const About = () => {
           <div
             key={index}
             className="w-full max-w-lg mx-auto flex flex-col sm:flex-row bg-neutral-900 rounded-lg overflow-hidden"
-            style={{ height: "250px" }} // Increase the height of the cards
+            style={{ height: "auto" }}
           >
-            <div className="w-full sm:w-1/3">
+            <div className="w-full sm:w-1/3 h-48 sm:h-auto">
               <img
                 src={hobby.image}
                 alt={hobby.title}

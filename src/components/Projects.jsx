@@ -1,5 +1,5 @@
 import { PROJECTS } from "../constants";
-import { FaGithub } from "react-icons/fa"; // Import GitHub icon
+import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
   return (
@@ -7,8 +7,12 @@ const Projects = () => {
       <h2 className="my-20 text-center text-4xl">Projects</h2>
       <div>
         {PROJECTS.map((project, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
-            <div className="w-full lg:w-1/4">
+          <div
+            key={index}
+            className="mb-8 flex flex-col items-center lg:flex-row lg:justify-center lg:items-start" // center content on mobile
+          >
+            <div className="w-full flex justify-center lg:w-1/4">
+              {" "}
               <img
                 src={project.image}
                 width={150}
@@ -17,8 +21,11 @@ const Projects = () => {
                 className="mb-6 rounded"
               />
             </div>
-            <div className="w-full max-w-xl lg:w-3/4">
-              <h6 className="w-full max-w-xl lg:w-3/4 flex items-center">
+            <div className="w-full max-w-xl lg:w-3/4 text-center lg:text-left">
+              {" "}
+              {/* center text on mobile */}
+              <h6 className="w-full max-w-xl lg:w-3/4 flex items-center justify-center lg:justify-start">
+                {" "}
                 {project.title}
                 <a
                   href={project.githubLink}
@@ -30,14 +37,18 @@ const Projects = () => {
                 </a>
               </h6>
               <p className="mb-4 text-neutral-400">{project.description}</p>
-              {project.technologies.map((tech, index) => (
-                <span
-                  key={index}
-                  className="mr-2 rounded bg-neutral-900 px-2 py-1 text-small font-medium text-purple-900"
-                >
-                  {tech}
-                </span>
-              ))}
+              <div className="flex justify-center lg:justify-start">
+                {" "}
+                {/* center tech tags on mobile */}
+                {project.technologies.map((tech, index) => (
+                  <span
+                    key={index}
+                    className="mr-2 rounded bg-neutral-900 px-2 py-1 text-small font-medium text-purple-900"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
             </div>
           </div>
         ))}

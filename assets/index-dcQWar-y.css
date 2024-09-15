@@ -1,1 +1,0 @@
-html,body{height:100%;margin:0;padding:0;background-color:#000;overflow-x:hidden}:root{--vh: 100%}@media (max-width: 768px){:root{--vh: 100vh}}html,body{height:var(--vh)}

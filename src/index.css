@@ -1,9 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  overflow-x: hidden; /* prevents horizontal scrolling */
+}
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
+/* fix for mobile viewport height issues */
 :root {
-  font-family: "Inter", sans-serif;
+  --vh: 100%;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --vh: 100vh;
+  }
+}
+
+html,
+body {
+  height: var(--vh);
 }

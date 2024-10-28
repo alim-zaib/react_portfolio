@@ -5,7 +5,7 @@ import project4 from "../assets/projects/project-4.webp";
 
 import coding from "../assets/hobbies/coding.jpg";
 import weightlifting from "../assets/hobbies/weightlifting.jpg";
-import gaming from "../assets/hobbies/gaming2.webp";
+import gaming from "../assets/hobbies/MarioKart8Boxart.jpg";
 import hiking from "../assets/hobbies/hiking.webp";
 
 export const HERO_CONTENT = `I'm a recent Artificial Intelligence graduate from the University of Manchester, passionate about AI and its future impact. I'm eager to start my career in software engineering, data engineering, or data analysis, where I can apply my current skills and continue to learn new ones. With a strong foundation in AI and a commitment to continuous learning, I'm excited to join a team where I can grow professionally, contribute to innovative projects, and help drive technological advancement. I'm particularly interested in roles that allow me to leverage my knowledge to solve real-world problems while expanding my expertise.`;

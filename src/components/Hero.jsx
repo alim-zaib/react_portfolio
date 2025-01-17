@@ -3,7 +3,7 @@ import profilePic from "../assets/memoji.png";
 
 const Hero = () => {
   return (
-    <div className="border-b border-neutral-900 pb-12 lg:mb-35">
+    <div className="border-b border-neutral-900 pb-12 lg:mb-35 pt-8">
       <div className="flex flex-col lg:flex-row items-center justify-center">
         <div className="flex flex-col items-center lg:items-start justify-center text-center lg:text-left">
           <h1 className="text-6xl font-thin tracking-normal lg:text-8xl">

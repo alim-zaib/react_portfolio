@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "lib": ["DOM", "ESNext"],
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "target": "ES6",
+    "module": "ESNext",
+    "moduleResolution": "Node" // fixes jsx errors by finding react types properly
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

@@ -14,14 +14,14 @@ const Experiment: React.FC = () => {
   };
 
   return (
-    <div className="relative">
+    <div className="relative min-h-screen">
       {/* sets the title of tab*/}
       <Helmet>
         <title>experimenting 🚧</title>
       </Helmet>
 
       <div
-        className="absolute top-0 left-0 w-screen h-screen"
+        className="absolute top-0 left-0 w-full h-full"
         style={{
           backgroundColor, // dynamically apply the background colour
         }}

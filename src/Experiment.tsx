@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Helmet } from "react-helmet";
 import ColourPalette from "./components/ColourPalette";
 
 const Experiment: React.FC = () => {
@@ -14,6 +15,11 @@ const Experiment: React.FC = () => {
 
   return (
     <div className="relative">
+      {/* sets the title of tab*/}
+      <Helmet>
+        <title>experimenting 🚧</title>
+      </Helmet>
+
       <div
         className="absolute top-0 left-0 w-screen h-screen"
         style={{

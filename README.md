@@ -1,6 +1,6 @@
 # online portfolio
 
-built with react, vite, javascript, tailwindcss, emailjs, and typescript.
+built with react, javascript, typescript, vite, tailwindcss, emailjs.
 
 ## future plans
 

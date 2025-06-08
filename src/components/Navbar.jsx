@@ -43,12 +43,13 @@ const Navbar = () => {
           >
             home
           </Link>
-          <Link
+          {/* removing experiment button for now */}
+          {/* <Link
             to="/experiment"
             className="text-cyan-400 hover:text-cyan-600 font-medium"
           >
             experiment
-          </Link>
+          </Link> */}
           <a
             href="https://www.linkedin.com/in/alim-zaib/"
             target="_blank"

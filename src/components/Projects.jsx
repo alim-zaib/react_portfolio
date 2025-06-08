@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 const Projects = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
-      <h2 className="my-20 text-center text-4xl">Projects</h2>
+      <h2 className="my-20 text-center text-4xl">projects</h2>
       <div>
         {PROJECTS.map((project, index) => (
           <div
@@ -23,7 +23,6 @@ const Projects = () => {
             </div>
             <div className="w-full max-w-xl lg:w-3/4 text-center lg:text-left">
               {" "}
-              {/* center text on mobile */}
               <h6 className="w-full max-w-xl lg:w-3/4 flex items-center justify-center lg:justify-start">
                 {" "}
                 {project.title}
@@ -39,7 +38,6 @@ const Projects = () => {
               <p className="mb-4 text-neutral-400">{project.description}</p>
               <div className="flex justify-center lg:justify-start">
                 {" "}
-                {/* center tech tags on mobile */}
                 {project.technologies.map((tech, index) => (
                   <span
                     key={index}

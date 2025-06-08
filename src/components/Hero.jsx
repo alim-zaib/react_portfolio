@@ -13,7 +13,7 @@ const Hero = () => {
             {HERO_CONTENT}
           </p>
         </div>
-        <div className="flex items-center justify-center mt-8 lg:mt-0 lg:ml-8 lg:-mt-8">
+        <div className="flex items-center justify-center mt-8 lg:mt--2 lg:ml-8 lg:-mt-8">
           <img src={profilePic} alt="Alim Zaib" className="w-80 lg:w-96" />
         </div>
       </div>

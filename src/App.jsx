@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Experiment from "./Experiment";
+import BackToTop from "./components/BackToTop";
 
 const App = () => {
   return (
@@ -30,6 +31,8 @@ const App = () => {
             {/* Experiment Route */}
             <Route path="/experiment" element={<Experiment />} />
           </Routes>
+          {/* back to top button */}
+          <BackToTop />
         </div>
       </div>
     </Router>

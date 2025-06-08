@@ -8,34 +8,34 @@ import weightlifting from "../assets/hobbies/weightlifting.jpg";
 import gaming from "../assets/hobbies/MarioKart8Boxart.jpg";
 import hiking from "../assets/hobbies/hiking.webp";
 
-export const HERO_CONTENT = `I'm a recent Artificial Intelligence graduate from the University of Manchester, passionate about AI and its future impact. I'm eager to start my career in software engineering, data engineering, or data analysis, where I can apply my current skills and continue to learn new ones. With a strong foundation in AI and a commitment to continuous learning, I'm excited to join a team where I can grow professionally, contribute to innovative projects, and help drive technological advancement. I'm particularly interested in roles that allow me to leverage my knowledge to solve real-world problems while expanding my expertise.`;
+export const HERO_CONTENT = `i'm a recent computer science graduate (with a focus in ai), currently working as a software developer. i’m passionate about ai and its future impact, and i’m eager to build software that makes a real difference. with a strong foundation in software engineering and a commitment to continuous learning, i’m excited to join a team where i can grow professionally, contribute to innovative projects, and help drive technological advancement.`;
 
-export const ABOUT_TEXT = `I have a strong interest in technology, particularly in data-focused roles, but I'm also excited about opportunities in software development. My education at the University of Manchester has given me a solid foundation in both areas, and I'm ready to apply what I've learned to real-world challenges in data engineering, software engineering, and related fields.`;
+export const ABOUT_TEXT = `i have a deep appreciation for mathematics as the foundation of algorithms, i’m obsessed with efficiency and automation and love finding ways to streamline workflows and save time. i’m personally interested in learning more about artificial intelligence and machine learning and exploring how they intersect in real-world applications.`;
 
 export const HOBBIES = [
   {
-    title: "Hiking",
+    title: "hiking",
     image: hiking,
     description:
-      "I enjoy hiking with friends, exploring the Peak District. It’s a great way to challenge my endurance while taking a break from technology.",
+      "i enjoy hiking with friends, exploring the peak district. it’s a great way to challenge my endurance while taking a break from technology.",
   },
   {
-    title: "Weightlifting",
+    title: "weightlifting",
     image: weightlifting,
     description:
-      "I recently started weightlifting and have made it a regular part of my routine. It’s been a great way to challenge myself, build strength, and stay focused.",
+      "i recently started weightlifting and have made it a regular part of my routine. it’s been a great way to challenge myself, build strength, and stay focused.",
   },
   {
-    title: "Coding",
+    title: "coding",
     image: coding,
     description:
-      "I started coding just before university when I decided to pursue a degree in AI. My love for problem-solving, combined with a strong background in mathematics, drew me to programming, and I’ve been passionate about it ever since.",
+      "i started coding just before university when i decided to pursue a degree in ai. my love for problem-solving, combined with a strong background in mathematics, drew me to programming, and i’ve been passionate about it ever since.",
   },
   {
-    title: "Gaming",
+    title: "gaming",
     image: gaming,
     description:
-      "I enjoy a range of computer games across different genres for the problem-solving and strategic thinking they involve.",
+      "i enjoy a range of computer games across different genres for the problem-solving and strategic thinking they involve.",
   },
 ];
 
@@ -43,35 +43,35 @@ export const EXPERIENCES = [];
 
 export const PROJECTS = [
   {
-    title: "Minecraft GPT Mod",
+    title: "minecraft gpt mod",
     image: project1,
     description:
-      "A Minecraft mod integrating GPT models to create an AI assistant that enhances gameplay by providing real-time information, suggestions, and insights.",
-    technologies: ["Java", "OpenAI API"],
+      "a minecraft mod integrating gpt models to create an ai assistant that enhances gameplay by providing real-time information, suggestions, and insights.",
+    technologies: ["java", "openai api"],
     githubLink: "https://github.com/alim-zaib/minecraft_gpt_assistant_mod",
   },
   {
-    title: "Fungi",
+    title: "fungi",
     image: project2,
     description:
-      "A terminal-based version of the classic board game Fungi, developed using Java and tested with JUnit.",
-    technologies: ["Java", "JUnit"],
+      "a terminal-based version of the classic board game fungi, developed using java and tested with junit.",
+    technologies: ["java", "junit"],
     githubLink: "https://github.com/alim-zaib/fungi",
   },
   {
-    title: "Hex Game AI Bot",
+    title: "hex game ai bot",
     image: project3,
     description:
-      "An AI agent for the Hex board game, using Minimax with alpha-beta pruning and Dijkstra-based heuristics for strategic move selection and performance optimisation.",
-    technologies: ["Python"],
+      "an ai agent for the hex board game, using minimax with alpha-beta pruning and dijkstra-based heuristics for strategic move selection and performance optimisation.",
+    technologies: ["python"],
     githubLink: "https://github.com/alim-zaib/hex_agent",
   },
   {
-    title: "Spam Detector",
+    title: "spam detector",
     image: project4,
     description:
-      "A Naive Bayes spam detector that classifies text messages as either spam or ham (non-spam).",
-    technologies: ["Python", "Pandas", "Numpy", "Matplotlib"],
+      "a naive bayes spam detector that classifies text messages as either spam or ham (non-spam).",
+    technologies: ["python", "pandas", "numpy", "matplotlib"],
     githubLink: "https://github.com/alim-zaib/spam_detector",
   },
 ];

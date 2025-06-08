@@ -51,10 +51,9 @@ const Contact = () => {
     <section className="py-12">
       <div className="container mx-auto px-4 lg:px-8">
         {" "}
-        {/* Slightly reduced padding */}
-        <div className="flex flex-col items-center mt-16">
+        <div className="flex flex-col items-center mt-2">
           <div className="border-b border-neutral-900 pb-4">
-            <h1 className="text-center text-4xl mb-8">Contact Me</h1>
+            <h1 className="text-center text-4xl mb-8">contact me</h1>
           </div>
         </div>
         <form
@@ -62,7 +61,6 @@ const Contact = () => {
           className="p-8 shadow-lg rounded-lg w-full"
         >
           {" "}
-          {/* Full width form */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <input
               type="text"

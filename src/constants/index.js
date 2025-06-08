@@ -8,7 +8,7 @@ import weightlifting from "../assets/hobbies/weightlifting.jpg";
 import gaming from "../assets/hobbies/MarioKart8Boxart.jpg";
 import hiking from "../assets/hobbies/hiking.webp";
 
-export const HERO_CONTENT = `i'm a recent computer science graduate (with a focus in ai), currently working as a software developer. i’m passionate about ai and its future impact, and i’m eager to build software that makes a real difference. with a strong foundation in software engineering and a commitment to continuous learning, i’m excited to join a team where i can grow professionally, contribute to innovative projects, and help drive technological advancement.`;
+export const HERO_CONTENT = `i'm a recent computer science graduate (with a focus in ai), currently working as a software developer at IBM.`;
 
 export const ABOUT_TEXT = `i have a deep appreciation for mathematics as the foundation of algorithms, i’m obsessed with efficiency and automation and love finding ways to streamline workflows and save time. i’m personally interested in learning more about artificial intelligence and machine learning and exploring how they intersect in real-world applications.`;
 
